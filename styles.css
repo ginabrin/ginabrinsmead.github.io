@@ -6,5 +6,10 @@ body {
     text-align: center;
     font-family: "Pacifico";
     background-image: url(http://www.gulf-luxury.com/wp-content/uploads/2015/09/Lake-Boat-Peaceful-Horizon-Photography-Landscape-900x1600.jpg);
-    color: white;
+    color: cyan;
+}
+img {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
 }
