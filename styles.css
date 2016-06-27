@@ -1,7 +1,7 @@
  .ex {
     width: 200px;
     height: 100px;
-    border: 100px;
+    alignment-baseline: baseline
 }
 body {
     text-align: center;
