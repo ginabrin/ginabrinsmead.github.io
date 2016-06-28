@@ -3,9 +3,17 @@
     height:300px;
     border-radius: 150px;
     border-color: black;
-    background-color: pink;
+    background: -webkit-linear-gradient(green,white);
     font-size: 50px;
+    font-family: cursive;
     color: white; 
     display: block;
-    margin: auto;
+    margin-right: auto;
+    margin-left: auto;
+    text-shadow: 2px 2px 3px #000000;
+    box-shadow: 2px 2px 12px #000000;
+}
+.img-circle {
+    border-radius: 50%;
+    width:50px;
 }
