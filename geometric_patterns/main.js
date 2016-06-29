@@ -1,5 +1,9 @@
 var NUM_CIRCLES = 12;
 var circleDiameter;
+var circleRadius;
+var rVal;
+var gVal;
+var bVal;
 
 function setup() {
   createCanvas(480, 600);
@@ -8,6 +12,10 @@ function setup() {
 }
 
 function draw() {
+  rVal = 108
+  gVal = 171
+  bVal = 178
+  
   var isShifted = false;
 
   var y = height;
@@ -22,14 +30,24 @@ function draw() {
     }
 
     while (x <= width) {
+       fill(color(rVal,gVal,bVal))
+      stroke(color(216,216,216))
       ellipse(x, y, circleDiameter, circleDiameter);
       x = x + circleDiameter;
+      
     }
 
     y = y - circleRadius;
     isShifted = !isShifted;
-    
-    fill(color(108,171,178))
-    stroke(color(216,216,216))
+    rVal = rVal +3;
+    gVal = gVal -8;
+    bVal = bVal -5;
+  
   }
+}
+function keyPressed() {
+  if (keyCode === 115 || keyCode === 83) {
+    saveCanvas('geometricPattern', 'png');
+  }
+  return false;
 }
