@@ -42,8 +42,10 @@ function draw() {
     rVal = rVal +3;
     gVal = gVal -8;
     bVal = bVal -5;
+    
+}
   
-  }
+
 }
 function keyPressed() {
   if (keyCode === 115 || keyCode === 83) {
@@ -51,3 +53,4 @@ function keyPressed() {
   }
   return false;
 }
+
