@@ -15,11 +15,10 @@ function preload() {
 function setup() {
   createCanvas(456, 256);
   isGameOver = false;
-  player = createSprite(width/2, height-(playerImage.height/2), 0, 0);
+  player = createSprite(width/2, height-(playerImage. height/2), 0, 0);
   
   player.addImage(playerImage);
   enemy = createSprite(width/2, 0, 0, 0);
-  enemy.addImage(enemyImage);
   enemy.addImage(enemyImage);
   enemy.rotationSpeed = 4.0;
 
