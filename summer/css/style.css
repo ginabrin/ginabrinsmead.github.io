@@ -21,7 +21,8 @@ html, body {
   background-image: linear-gradient(to bottom, #0063a6 0%, #0072c0 15%, #ffffff 100%);
 }
 #sakura {
-  z-index: 10
+  z-index: 10;
+  top: -500%;
 }
 
 .grass {
